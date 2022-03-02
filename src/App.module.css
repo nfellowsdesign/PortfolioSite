@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    background-color: whitesmoke;
+    color: #1C1B14);
+}
+.hero{
+    background-color: #1C1B14;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.section{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.footer {
+    background-color: #1C1B14;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50vh;
+}
