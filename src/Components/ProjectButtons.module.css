@@ -1,20 +1,23 @@
 .projectbutton {
-    background-color: #1C1B14;
-    color:#fafafa;
+
+    background-color: #fafafa;
+    color:#1C1B14;
     border-radius: 10px;
-    min-width: 150px;
-    min-height: 150px;
+    min-width: 250px;
+    min-height: 250px;
     margin: 16px;
     display: flex;
     font-weight: bold;
+    font-size: 18px;
     justify-content: center;
     align-items: center;
+    box-shadow: 2px 5px 14px -5px #919191;
     border: none;
 }
 
 .projectbutton:hover {
-    background-color: #83f18e;
-    color:#1C1B14;
+    background-color: #1C1B14;
+    color:#fafafa;
     border-radius: 10px;
     width: 150px;
     height: 150px;

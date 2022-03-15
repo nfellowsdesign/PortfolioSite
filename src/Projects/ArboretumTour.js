@@ -1,7 +1,11 @@
 
 function ArboretumTour() {
     return(
-        <h1>Arboretum Tour</h1>
+        <div>
+            <h1>ARBORETUM TOUR</h1>
+            <p>Layout Design / Branding / Environmental Design</p>
+            <img/>
+        </div>
     );
 }
 

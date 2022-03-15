@@ -1,7 +1,7 @@
 
 function YearPlantedSigns() {
     return(
-        <h1>Year Planted Signs</h1>
+        <h1>YEAR PLANTED SIGNS</h1>
     );
 }
 

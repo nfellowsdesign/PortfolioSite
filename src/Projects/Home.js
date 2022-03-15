@@ -1,7 +1,11 @@
+import styles from './Home.module.css'
 
 function Home() {
+
     return(
-        <h1>Home</h1>
+        <div className={styles.placeholder}>
+            <p>Choose a Project</p>
+        </div>
     );
 }
 

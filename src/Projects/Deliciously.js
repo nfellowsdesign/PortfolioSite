@@ -1,7 +1,7 @@
 
 function Deliciously() {
     return(
-        <h1>Deliciously</h1>
+        <h1>DELICIOUSLY</h1>
     );
 }
 

@@ -1,7 +1,7 @@
 
 function UnitedWay() {
     return(
-        <h1>United Way</h1>
+        <h1>UNITED WAY</h1>
     );
 }
 

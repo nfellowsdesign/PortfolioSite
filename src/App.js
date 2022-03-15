@@ -4,7 +4,7 @@ import SkillCard from './Components/SkillCard'
 
 
 import LogoWhite from './Assests/SVG/LogoWhite.svg'
-import ProjectHandler from './Components/ProjectHandler';
+import ProjectSection from './Components/ProjectSection';
 
 function App() {
   return (
@@ -18,19 +18,20 @@ function App() {
 experiences by bringing together creative problem solving,
 expressive execution, and collaboration.</h2>
     </div>
-    <div className={styles.section}>
+   {/* <div className={styles.skills}>
+      <SkillCard />
+      <SkillCard />
+      <SkillCard />
+    </div>
+    */}
+    <div>
       {/*PROJECTS*/}
-      <ProjectHandler/>
+      <ProjectSection/>
     </div>
-    <div className={styles.section}>
-      {/* Skills */}
-      <SkillCard />
-      <SkillCard />
-      <SkillCard />
-    </div>
-    <div className={styles.section}>
+
+    {/*<div className={styles.section}>
       <h1>ABOUT</h1>
-    </div>
+    </div>*/}
     <div className={styles.section}>
       <h1>CONTACT</h1>
     </div>

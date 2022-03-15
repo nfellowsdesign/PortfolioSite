@@ -1,7 +1,7 @@
 
 function Rise() {
     return(
-        <h1>Rise</h1>
+        <h1>RISE</h1>
     );
 }
 
