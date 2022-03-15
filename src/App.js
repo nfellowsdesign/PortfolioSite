@@ -1,19 +1,10 @@
 import styles from './App.module.css';
-import { Routes, Route } from "react-router-dom";
-
-import Home from './Projects/Home';
-import Deliciously from './Projects/Deliciously';
-import ArboretumTour from './Projects/ArboretumTour';
-import Rise from './Projects/Rise';
-import UnitedWay from './Projects/UnitedWay';
-import YearPlantedSigns from './Projects/YearPlantedSigns';
-import MythsAndMonsters from './Projects/MythsAndMonsters';
-import Hayloft from './Projects/Hayloft';
 
 import SkillCard from './Components/SkillCard'
-import ProjectButtons from './Components/ProjectButtons'
+
 
 import LogoWhite from './Assests/SVG/LogoWhite.svg'
+import ProjectHandler from './Components/ProjectHandler';
 
 function App() {
   return (
@@ -29,24 +20,7 @@ expressive execution, and collaboration.</h2>
     </div>
     <div className={styles.section}>
       {/*PROJECTS*/}
-      <ProjectButtons />
-      <ProjectButtons />
-      <ProjectButtons />
-      <ProjectButtons />
-      <ProjectButtons />
-      <ProjectButtons />
-      <ProjectButtons />
-
-      <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/Deliciously' element={<Deliciously/>}/>
-        <Route path='/ArboretumTour' element={<ArboretumTour/>}/>
-        <Route path='/Rise' element={<Rise/>}/>
-        <Route path='/UnitedWay' element={<UnitedWay/>}/>
-        <Route path='/YearPlantedSigns' element={<YearPlantedSigns/>}/>
-        <Route path='/MythsAndMonsters' element={<MythsAndMonsters/>}/>
-        <Route path='/Hayloft' element={<Hayloft/>}/>
-      </Routes>
+      <ProjectHandler/>
     </div>
     <div className={styles.section}>
       {/* Skills */}
