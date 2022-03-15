@@ -1,33 +1,54 @@
 body{
     margin: 0;
-    background-color: whitesmoke;
-    color: #1C1B14);
+    background-color: #1C1B14;
+    color: #1C1B14;
+}
+.app{
+    background-color: #fafafa;
 }
 .hero{
     background-color: #1C1B14;
-    color: whitesmoke;
+    color: #fafafa;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    padding-top: 16px;
+}
+.logo{
+    width: 70vw;
+}
+.section{
+    background-color: #fafafa;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
     height: 100vh;
 }
-
-.section{
-    background-color: whitesmoke;
+.intro{
+    background-color: #fafafa;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 100vh;
+    height: 60vh;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    font-size: 14pt;
 }
 
 .footer {
     background-color: #1C1B14;
-    color: whitesmoke;
+    color: #fafafa;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     text-align: center;
     height: 50vh;
+    padding: 32px;
 }
