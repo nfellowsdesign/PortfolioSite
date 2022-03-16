@@ -30,12 +30,12 @@ function Contact() {
                 <div className={styles.contactCopy}>
                     <h1>Let's Work!</h1>
                 </div>
-                <div className={styles.contactForm}>
-                    <form ref={form} onSubmit={sendEmail}>
-                        <input type="text" className={styles.formControl} placeholder="Name" name="name" />
-                        <input type="email" className={styles.formControl} placeholder="Email" name="email" />
-                        <input type="text" className={styles.formControl} placeholder="Subject" name="subject" />
-                        <textarea className={styles.formControl} cols="30" rows="8" placeholder="Your Message..." name="message" />
+                <div >
+                    <form className={styles.contactForm} ref={form} onSubmit={sendEmail}>
+                        <input type="text" className={styles.formControl} placeholder="Name" name="name" required/>
+                        <input type="email" className={styles.formControl} placeholder="Email" name="email" required/>
+                        <input type="text" className={styles.formControl} placeholder="Subject" name="subject" required/>
+                        <textarea className={styles.formControl} rows="8" placeholder="Your Message..." name="message" required/>
                         <input type="submit" className={styles.formButton} value="Send" />
                     </form>
                 </div>
