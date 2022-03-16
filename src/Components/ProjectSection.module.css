@@ -39,6 +39,7 @@
     border: none;
     width: 60px;
     height: 60px;
+    margin:16px;
     border-radius: 10px;
     box-shadow: 2px 5px 14px -5px #919191;
 }
