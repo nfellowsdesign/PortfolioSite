@@ -1,7 +1,7 @@
 import styles from './App.module.css';
 
 import SkillCard from './Components/SkillCard'
-
+import Contact from './Components/Contact'
 
 import LogoWhite from './Assests/SVG/LogoWhite.svg'
 import ProjectSection from './Components/ProjectSection';
@@ -33,7 +33,7 @@ expressive execution, and collaboration.</h2>
       <h1>ABOUT</h1>
     </div>*/}
     <div className={styles.section}>
-      <h1>CONTACT</h1>
+      <Contact/>
     </div>
     <div className={styles.footer}>
       <h1>✌️</h1>
