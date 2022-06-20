@@ -1,6 +1,5 @@
 import styles from './App.module.css';
 
-import SkillCard from './Components/SkillCard'
 import Contact from './Components/Contact'
 
 import LogoWhite from './Assests/SVG/LogoWhite.svg'
@@ -18,20 +17,10 @@ function App() {
 experiences by bringing together creative problem solving,
 expressive execution, and collaboration.</h2>
     </div>
-   {/* <div className={styles.skills}>
-      <SkillCard />
-      <SkillCard />
-      <SkillCard />
-    </div>
-    */}
     <div>
       {/*PROJECTS*/}
       <ProjectSection/>
     </div>
-
-    {/*<div className={styles.section}>
-      <h1>ABOUT</h1>
-    </div>*/}
     <div className={styles.section}>
       <Contact/>
     </div>

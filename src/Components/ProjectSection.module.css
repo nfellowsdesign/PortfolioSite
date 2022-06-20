@@ -1,4 +1,4 @@
-.controls {
+.controls{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -34,18 +34,18 @@
 }
 
 .returnbutton{
-    background-color: #fafafa;
-    color:#1C1B14;
+    color: #fafafa;
+    background-color:#1C1B14;
     border: none;
     width: 60px;
     height: 60px;
     margin:16px;
     border-radius: 10px;
-    box-shadow: 2px 5px 14px -5px #919191;
+   /* box-shadow: 2px 5px 14px -5px #919191; */
 }
 .returnbutton:hover{
-    background-color: #1C1B14;
-    color: #fafafa;
+    color: #1C1B14;
+    background-color: #fafafa;
     border: none;
     width: 60px;
     height: 60px;

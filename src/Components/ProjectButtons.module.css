@@ -1,7 +1,7 @@
 .projectbutton {
 
-    background-color: #fafafa;
-    color:#1C1B14;
+    color: #1C1B14;
+    background-color:#7de8ad;
     border-radius: 10px;
     min-width: 250px;
     min-height: 250px;
@@ -11,13 +11,12 @@
     font-size: 18px;
     justify-content: center;
     align-items: center;
-    box-shadow: 2px 5px 14px -5px #919191;
+    /*box-shadow: 2px 5px 14px -5px #919191;*/
     border: none;
 }
 
 .projectbutton:hover {
-    background-color: #1C1B14;
-    color:#fafafa;
+    background-color: #47c981;
     border-radius: 10px;
     width: 150px;
     height: 150px;

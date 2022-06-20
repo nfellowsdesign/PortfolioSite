@@ -2,9 +2,10 @@ body{
     margin: 0;
     background-color: #1C1B14;
     color: #1C1B14;
+    font-family: 'Roboto', sans-serif;
 }
 .app{
-    background-color: #fafafa;
+    background-color: #1C1B14;
 }
 .hero{
     background-color: #1C1B14;
@@ -20,7 +21,7 @@ body{
     width: 70vw;
 }
 .section{
-    background-color: #fafafa;
+    background-color: #1C1B14;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -43,7 +44,8 @@ body{
 }
 
 .intro{
-    background-color: #fafafa;
+    background-color: #1C1B14;
+    color: #fafafa;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
