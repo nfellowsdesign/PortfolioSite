@@ -11,7 +11,6 @@ import Deliciously from '../Projects/Deliciously';
 import ArboretumTour from '../Projects/ArboretumTour';
 import Rise from '../Projects/Rise';
 import UnitedWay from '../Projects/UnitedWay';
-import YearPlantedSigns from '../Projects/YearPlantedSigns';
 import MythsAndMonsters from '../Projects/MythsAndMonsters';
 
 function ProjectSection() {
@@ -25,40 +24,40 @@ function ProjectSection() {
     const executeProjScroll = () => projRef.current.scrollIntoView()  
  
     return(
-        <div className={styles.container} ref={projRef}>
+        <div>
+        <div ref={projRef}></div>
+        <div className={styles.container}>
             <div className={styles.controls}>
                 <NavLink onClick={executeScroll} className={styles.links} to={'/Deliciously'}>
-                    <ProjectButtons title={"DELICIOUSLY"}/>
+                    <ProjectButtons title={"DELICIOUSLY"} class={"deliciously"}/>
                 </NavLink>
                 <NavLink onClick={executeScroll} className={styles.links} to={'/ArboretumTour'}>
-                    <ProjectButtons title={"ARBORETUM TOUR"}/>
+                    <ProjectButtons title={"ARBORETUM TOUR"} class={"at"}/>
                 </NavLink>
                 <NavLink onClick={executeScroll} className={styles.links} to={'/Rise'}>
-                    <ProjectButtons title={"RISE"}/>
+                    <ProjectButtons title={"RISE"} class={"rise"}/>
                 </NavLink>
                 <NavLink onClick={executeScroll} className={styles.links} to={'/UnitedWay'}>
-                    <ProjectButtons title={"UNITED WAY"}/>
-                </NavLink>
-                <NavLink onClick={executeScroll} className={styles.links}to={'/YearPlantedSigns'}>
-                    <ProjectButtons title={"YEAR PLANTED SIGNS"}/>  
+                    <ProjectButtons title={"UNITED WAY"} class={"uw"}/>
                 </NavLink>
                 <NavLink onClick={executeScroll} className={styles.links} to={'/MythsAndMonsters'}>
-                    <ProjectButtons title={"MYTHS AND MONSTERS"}/>
+                    <ProjectButtons title={"MYTHS AND MONSTERS"} class={"mam"}/>
                 </NavLink>
+                <div className={styles.content} ref={myRef}>
             </div>
-            <div className={styles.content} ref={myRef}>
+            
                 <Routes>
                 <Route path='/' element={<Home/>}/>
                 <Route path='/Deliciously' element={<Deliciously/>}/>
                 <Route path='/ArboretumTour' element={<ArboretumTour/>}/>
                 <Route path='/Rise' element={<Rise/>}/>
                 <Route path='/UnitedWay' element={<UnitedWay/>}/>
-                <Route path='/YearPlantedSigns' element={<YearPlantedSigns/>}/>
                 <Route path='/MythsAndMonsters' element={<MythsAndMonsters/>}/>
                 </Routes>
             </div>
             <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}  onClick={executeProjScroll} className={styles.returnbutton}> ↖️ </motion.button>
         </div>
+    </div>
     );
 }
 

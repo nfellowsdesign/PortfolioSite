@@ -1,5 +1,7 @@
 import styles from "./projects.module.css"
 
+import ProjectHeader from '../Components/ProjectHeader'
+
 import DLogo from "../Assests/Images/Deliciously/D0@150x.png"
 import D1 from "../Assests/Images/Deliciously/D1@150x.png"
 import D2 from "../Assests/Images/Deliciously/D2@150x.png"
@@ -12,9 +14,7 @@ import D7 from "../Assests/Images/Deliciously/D7@150x.png"
 function Deliciously() {
     return(
         <div className={styles.contentBox}>
-            <h1>DELICIOUSLY</h1>
-            <p>UX / UI / Branding</p>
-            <p className={styles.bodyCopy}>The cookbook for the modern age. Deliciously is a meal planning / recipe app start-up, built for both IOS and Android. Deliciously takes advantage of modern technologies to provide the best experience for both users and content creators. As co-founder and lead designer, I handled UX/UI, branding, and other collateral.</p>
+            <ProjectHeader title={"DELICIOUSLY"} subtitle={"test and test"} attributes={"UX Design, Branding, Graphic Design, Project Management, AGILE"}  desc={"An exploratory designer focused on delivering engaging digital experiences by bringing together creative problem solving, expressive execution."}/>
             <img className={styles.image} src={DLogo} />
             <img className={styles.image} src={D1} />
             <img className={styles.image} src={D2} />

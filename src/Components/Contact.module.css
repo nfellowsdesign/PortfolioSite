@@ -1,12 +1,11 @@
-.contactContainer {
 
-}
 .contactBox{
-    background-color: #7de8ad;
-    color: #1C1B14;
+    background-color: #1f1d17;
+    color: #fafafa;
+    border-style: none;
     border-radius: 10px;
-    /*box-shadow: 2px 5px 14px -5px #919191;*/
 }
+
 .contactForm{
     display: flex;
     flex-direction: column;
@@ -16,35 +15,41 @@
 }
 
 .contactCopy{
-    padding-top:32px;
+    padding-top:16px;
+    font-size: 1.5vw;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
 }
 
 .formControl {
-    background-color: #f5f5f5;
-    color: #1C1B14;;
-    border: none;
+    background-color: #1C1B14;
+    color: #fafafa;
+    border-style: none;
+    border-radius: 10px;
     padding:8px;
     margin:8px;
-    min-width: 50vw;
-    border-radius: 5px;
+    width: 33vw;
+    min-width: 300px;
     font-family: sans-serif;
+    font-size: 16px;
 }
 
 .formButton{
-    background-color: #1C1B14;
-    color: #f5f5f5;
-    border: none;
-    margin:8px;
-    border-radius: 5px;
-    width: 80px;
-    height: 32px;
+    background-color: #1f1d17;
+    color: #fafafa;
+    border-style: solid;
+    border-color: #1c1b14;
+    border-width: 8px;
+    border-radius: 100%;
+    margin:16px;
+    width: 150px;
+    height: 150px;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
+    font-size: 14px;
+    margin-bottom: -95px;
 }
 .formButton:hover{
-    background-color: #95ec7a;
+    background-color: #fafafa;
     color: #1C1B14;
-    border: none;
-    margin:8px;
-    border-radius: 5px;
-    width: 80px;
-    height: 32px;
 }

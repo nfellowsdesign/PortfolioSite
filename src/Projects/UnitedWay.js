@@ -1,5 +1,7 @@
 import styles from "./projects.module.css"
 
+import ProjectHeader from '../Components/ProjectHeader'
+
 import UW0 from '../Assests/Images/Unitedway/UW0.png'
 import UW1 from '../Assests/Images/Unitedway/UW1.png'
 import UW2 from '../Assests/Images/Unitedway/UW2.png'
@@ -15,9 +17,7 @@ import UW10 from '../Assests/Images/Unitedway/UW10.png'
 function UnitedWay() {
     return(
         <div className={styles.contentBox}>
-            <h1>UNITED WAY</h1>
-            <p>Layout Design / Branding / Vector Illustration / Infographics</p>
-            <p className={styles.bodyCopy}>This design project was a collaborative effort between Nichole Beyer, Kenzie Dunham, Maggie Murray, and I. We worked along side United Way of Linn, Benton, & Lincoln Counties. This project included branding and layout design for multiple deliverables. Through research and connections we developed specific colors, illustrations, and infographics to work with the existing United Way branding to elevate our local chapter.</p>
+            <ProjectHeader title={"UNITED WAY"} subtitle={"test and test"} attributes={"Layout Design, Branding, Vector Illustration, Infographics"}  desc={"This design project was a collaborative effort between Nichole Beyer, Kenzie Dunham, Maggie Murray, and I. We worked along side United Way of Linn, Benton, & Lincoln Counties. This project included branding and layout design for multiple deliverables. Through research and connections we developed specific colors, illustrations, and infographics to work with the existing United Way branding to elevate our local chapter."}/>
             <img className={styles.image} src={UW0} />
             <img className={styles.image} src={UW1} />
             <img className={styles.image} src={UW3} />

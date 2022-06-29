@@ -1,5 +1,7 @@
 import styles from "./projects.module.css"
 
+import ProjectHeader from '../Components/ProjectHeader'
+
 import YP1 from '../Assests/Images/Yearplanted/YP1.png'
 import YP2 from '../Assests/Images/Yearplanted/YP2.png'
 import YP3 from '../Assests/Images/Yearplanted/YP3.png'

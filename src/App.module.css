@@ -2,7 +2,8 @@ body{
     margin: 0;
     background-color: #1C1B14;
     color: #1C1B14;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 900;
 }
 .app{
     background-color: #1C1B14;
@@ -11,14 +12,20 @@ body{
     background-color: #1C1B14;
     color: #fafafa;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
     height: 100vh;
     padding-top: 16px;
 }
 .logo{
-    width: 70vw;
+    width: 30vw;
+    margin-top: 10vh;
+
+}
+.arrow{
+    height: 5vh;
+    margin-top: 124px;
 }
 .section{
     background-color: #1C1B14;
@@ -28,6 +35,9 @@ body{
     align-items: center;
     text-align: center;
     height: 100vh;
+    width: 33vw;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 .skills{
@@ -55,6 +65,7 @@ body{
     padding-left: 15vw;
     padding-right: 15vw;
     font-size: 14pt;
+    font-weight: 900;
 }
 
 .footer {

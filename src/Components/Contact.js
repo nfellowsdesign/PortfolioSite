@@ -28,7 +28,7 @@ function Contact() {
         <div className={styles.contactContainer}>
             <div className={styles.contactBox}>
                 <div className={styles.contactCopy}>
-                    <h1>Let's Work!</h1>
+                    <h1>Got a project idea?</h1>
                 </div>
                 <div >
                     <form className={styles.contactForm} ref={form} onSubmit={sendEmail}>
@@ -36,7 +36,7 @@ function Contact() {
                         <input type="email" className={styles.formControl} placeholder="Email" name="email" required/>
                         <input type="text" className={styles.formControl} placeholder="Subject" name="subject" required/>
                         <textarea className={styles.formControl} rows="8" placeholder="Your Message..." name="message" required/>
-                        <input type="submit" className={styles.formButton} value="Send" />
+                        <motion.input type="submit" className={styles.formButton} value="LET'S WORK!" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }} />
                     </form>
                 </div>
             </div>

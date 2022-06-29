@@ -1,0 +1,35 @@
+.card{
+    background-color: #1c1b14;
+    width: 200px;
+    height: 300px;
+    border-radius: 12px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.icon{
+    background-color: #fafafa;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 16px;
+}
+
+.title{
+    color: #fafafa;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.copy{
+    color: #fafafa;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 200;
+    font-size: 14px;
+    text-align: center;
+    margin: 16px;
+}

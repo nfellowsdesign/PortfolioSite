@@ -1,5 +1,7 @@
 import styles from "./projects.module.css"
 
+import ProjectHeader from '../Components/ProjectHeader'
+
 import A0 from "../Assests/Images/Arbtour/A0.png"
 import A1 from "../Assests/Images/Arbtour/A1.png"
 import A2 from "../Assests/Images/Arbtour/A2.png"
@@ -10,9 +12,7 @@ import A5 from "../Assests/Images/Arbtour/A5.png"
 function ArboretumTour() {
     return(
         <div className={styles.contentBox}>
-            <h1>ARBORETUM TOUR</h1>
-            <p>Layout Design / Branding / Environmental Design</p>
-            <p className={styles.bodyCopy}>The Peavy Arboretum Exploration Tour is a redux of an old installation at Peavy Arboretum.  This goal was to breath new life into the exploration tour by creating an all new tree scavenger hunt to promote engagement with the diverse taxonomy at the Arboretum. We also wanted to focus on the idea of exploration, which was missing from the old tour. To accomplish this we updated layout elements to increase the overall user experience, added new scientific illustrations done by Sue Ranseen to accurately depict the trees, and created engaging riddles to instill a sense of actionable mystery.</p>
+            <ProjectHeader title={"ARBORETUM TOUR"} subtitle={"Redesign and Reintroduction"} attributes={"UX Design, Branding, Graphic Design, Project Management, AGILE"}  desc={"An exploratory designer focused on delivering engaging digital experiences by bringing together creative problem solving, expressive execution."}/>
             <img className={styles.image} src={A0} />
             <img className={styles.image} src={A1} />
             <img className={styles.image} src={A2} />

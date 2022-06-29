@@ -1,0 +1,52 @@
+.header{
+    color: #fafafa;
+    width: 50vw;
+    margin-bottom: 64px;
+}
+.divider{
+    margin-top: 64px;
+    margin-bottom: 64px;
+    color: #fafafa;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.subdivider{
+    margin-right: 32px;
+    color: #fafafa;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.title{
+    font-size: 33px;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.info{
+    width: 25vw;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.subtitle{
+    font-size: 24px;
+    text-align: left;
+}
+
+.attributes{
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.desc{
+    font-size: 18px;
+    text-align: right;
+    font-weight: 300;
+    width: 25vw;
+}

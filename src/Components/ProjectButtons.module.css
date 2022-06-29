@@ -1,30 +1,72 @@
-.projectbutton {
-
-    color: #1C1B14;
-    background-color:#7de8ad;
+button {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 500;
+    font-size: 2vw;
+    color: #fafafa;
+    background-color:#1f1d17;
     border-radius: 10px;
-    min-width: 250px;
-    min-height: 250px;
+    border-style: none;
+    width: 50vw;
+    min-width: 300px;
+    height: 180px;
     margin: 16px;
     display: flex;
-    font-weight: bold;
-    font-size: 18px;
     justify-content: center;
     align-items: center;
-    /*box-shadow: 2px 5px 14px -5px #919191;*/
-    border: none;
 }
 
-.projectbutton:hover {
-    background-color: #47c981;
+button:hover {
+    background-color: #fafafa;
+    color: #1C1B14;
     border-radius: 10px;
-    width: 150px;
-    height: 150px;
     margin: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-   
     cursor: pointer;
+}
+
+.deliciously{
+    
+}
+
+.deliciously:hover{
+    
+}
+
+.at{
+
+}
+
+.at:hover{
+    
+}
+
+.rise{
+
+}
+
+.rise:hover{
+    
+}
+
+.uw{
+
+}
+
+.uw:hover{
+    
+}
+
+.yps{
+
+}
+
+.yps:hover{
+    
+}
+
+.mam{
+
+}
+
+.mam:hover{
+    
 }
