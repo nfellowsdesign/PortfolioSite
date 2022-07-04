@@ -1,3 +1,4 @@
+@media only screen and (min-width: 551px) {
 button {
     font-family: 'Noto Serif JP', serif;
     font-weight: 500;
@@ -14,6 +15,26 @@ button {
     justify-content: center;
     align-items: center;
 }
+}
+
+@media only screen and (max-width: 550px) {
+    button {
+        font-family: 'Noto Serif JP', serif;
+        font-weight: 500;
+        font-size: 14px;
+        color: #fafafa;
+        background-color:#1f1d17;
+        border-radius: 10px;
+        border-style: none;
+        width: 50vw;
+        min-width: 300px;
+        height: 180px;
+        margin: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    }
 
 button:hover {
     background-color: #fafafa;

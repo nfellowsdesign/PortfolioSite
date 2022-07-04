@@ -20,6 +20,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    background-color: #1c1b14;
 }
 
 @media only screen and (max-width: 550px) {
@@ -28,6 +29,7 @@
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
+    background-color: #1c1b14;
 }
 .copy{
     color: #fafafa;
@@ -42,7 +44,6 @@
 .portrait{
     background-color: #1c1b14;
     width: 50vw;
-    height: 440px;
     z-index: 1;
 }
 }
@@ -67,19 +68,15 @@
 .portrait{
     background-color: #1c1b14;
     width: 25vw;
-    height: 440px;
     z-index: 1;
 }
 }
-
-
 
 .skills{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    align-items: left;
     flex-wrap: wrap;
-    width: 50vw;
+    width: 60vw;
 }

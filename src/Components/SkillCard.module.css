@@ -1,7 +1,6 @@
 .card{
-    background-color: #1c1b14;
-    width: 200px;
-    height: 300px;
+    background-color: #1f1d17;
+    width: 250px;
     border-radius: 12px;
     margin: 16px;
     display: flex;
@@ -10,19 +9,20 @@
     align-items: center;
 }
 
+.card:hover{
+    background-color: #222019;
+}
 .icon{
-    background-color: #fafafa;
-    width: 100px;
-    height: 100px;
-    border-radius: 100%;
-    margin: 16px;
+    width: 125px;
+    height: 125px;
+    margin: 32px;
 }
 
 .title{
     color: #fafafa;
     font-family: 'Noto Serif JP', serif;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 26px;
 }
 
 .copy{
@@ -31,5 +31,5 @@
     font-weight: 200;
     font-size: 14px;
     text-align: center;
-    margin: 16px;
+    margin: 32px;
 }

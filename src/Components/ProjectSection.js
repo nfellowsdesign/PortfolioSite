@@ -31,17 +31,17 @@ function ProjectSection() {
                 <NavLink onClick={executeScroll} className={styles.links} to={'/Deliciously'}>
                     <ProjectButtons title={"DELICIOUSLY"} class={"deliciously"}/>
                 </NavLink>
-                <NavLink onClick={executeScroll} className={styles.links} to={'/ArboretumTour'}>
-                    <ProjectButtons title={"ARBORETUM TOUR"} class={"at"}/>
-                </NavLink>
-                <NavLink onClick={executeScroll} className={styles.links} to={'/Rise'}>
-                    <ProjectButtons title={"RISE"} class={"rise"}/>
+                <NavLink onClick={executeScroll} className={styles.links} to={'/MythsAndMonsters'}>
+                    <ProjectButtons title={"MYTHS AND MONSTERS"} class={"mam"}/>
                 </NavLink>
                 <NavLink onClick={executeScroll} className={styles.links} to={'/UnitedWay'}>
                     <ProjectButtons title={"UNITED WAY"} class={"uw"}/>
                 </NavLink>
-                <NavLink onClick={executeScroll} className={styles.links} to={'/MythsAndMonsters'}>
-                    <ProjectButtons title={"MYTHS AND MONSTERS"} class={"mam"}/>
+                <NavLink onClick={executeScroll} className={styles.links} to={'/Rise'}>
+                    <ProjectButtons title={"RISE"} class={"rise"}/>
+                </NavLink>
+                <NavLink onClick={executeScroll} className={styles.links} to={'/ArboretumTour'}>
+                    <ProjectButtons title={"ARBORETUM TOUR"} class={"at"}/>
                 </NavLink>
                 <div className={styles.content} ref={myRef}>
             </div>

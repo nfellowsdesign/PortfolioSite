@@ -2,23 +2,23 @@ import styles from "./projects.module.css"
 
 import ProjectHeader from '../Components/ProjectHeader'
 
-import A0 from "../Assests/Images/Arbtour/A0.png"
-import A1 from "../Assests/Images/Arbtour/A1.png"
-import A2 from "../Assests/Images/Arbtour/A2.png"
-import A3 from "../Assests/Images/Arbtour/A3.png"
-import A4 from "../Assests/Images/Arbtour/A4.png"
-import A5 from "../Assests/Images/Arbtour/A5.png"
+import AT1 from "../Assests/Images/Arbtour/AT1.png"
+import AT2 from "../Assests/Images/Arbtour/AT2.png"
+import AT3 from "../Assests/Images/Arbtour/AT3.png"
+import AT4 from "../Assests/Images/Arbtour/AT4.png"
+import AT5 from "../Assests/Images/Arbtour/AT5.png"
+import AT6 from "../Assests/Images/Arbtour/AT6.png"
 
 function ArboretumTour() {
     return(
         <div className={styles.contentBox}>
-            <ProjectHeader title={"ARBORETUM TOUR"} subtitle={"Redesign and Reintroduction"} attributes={"UX Design, Branding, Graphic Design, Project Management, AGILE"}  desc={"An exploratory designer focused on delivering engaging digital experiences by bringing together creative problem solving, expressive execution."}/>
-            <img className={styles.image} src={A0} />
-            <img className={styles.image} src={A1} />
-            <img className={styles.image} src={A2} />
-            <img className={styles.image} src={A3} />
-            <img className={styles.image} src={A4} />
-            <img className={styles.image} src={A5} />
+            <ProjectHeader title={"ARBORETUM TOUR"} subtitle={"Redesign and Reintroduction"} attributes={"Branding, Graphic Design, Project Management, Layout Design"}  desc={"An exploratory designer focused on delivering engaging digital experiences by bringing together creative problem solving, expressive execution."}/>
+            <img className={styles.image} src={AT1} />
+            <img className={styles.image} src={AT2} />
+            <img className={styles.image} src={AT3} />
+            <img className={styles.image} src={AT4} />
+            <img className={styles.image} src={AT5} />
+            <img className={styles.image} src={AT6} />
         </div>
     );
 }
