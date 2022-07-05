@@ -18,7 +18,7 @@
 .profile{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     background-color: #1c1b14;
 }
@@ -37,7 +37,7 @@
     font-weight: 500;
     font-size: 4.5vw;
     background-color: #1c1b14;
-    width: 400px;
+    width: 60vw;
     z-index: 1;
     text-align: center;
 }
@@ -45,9 +45,16 @@
     background-color: #1c1b14;
     width: 50vw;
     z-index: 1;
+    aspect-ratio: fixed;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
 }
 }
-
 .divider{
     margin-top: 64px;
     margin-bottom: 64px;
@@ -70,13 +77,12 @@
     width: 25vw;
     z-index: 1;
 }
-}
-
 .skills{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: left;
-    flex-wrap: wrap;
     width: 60vw;
 }
+}
+
